@@ -1,0 +1,140 @@
+#header-img{
+    width: 17px;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 70px;
+  }
+  header{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13px;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    font-family: BlinkMacSystemFont, sans-serif;
+  }
+  
+  .nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51,51,51);
+    opacity: 98%;
+  }
+  
+  .nav-list li{
+    display: inline;
+    float: left;
+  }
+  
+  .nav-link:hover {
+    color: white;
+  }
+  
+  #last-item{
+    padding-right: 100px;
+  }
+  
+  .nav-link{
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  #mac-header{
+    font-size: 80px;
+  }
+  
+  footer{
+    height: 200px;
+    background-color: rgb(51,51,51);
+    color: rgb(214, 214, 214);
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  form{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #email{
+    width: 200px;
+    height: 25px;
+    border-radius:5px;
+  }
+  
+  #iPhone{
+    text-align: center;
+    background-color: rgb(243, 244, 246);
+    height: 800px;
+  }
+  
+  #phone-h3{
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 25px;
+    padding-bottom: 0px;
+  }
+  
+  #phone-h1{
+    font-size: 64px;
+    font-weight: normal;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  #phone-p{
+    font-weight: normal;
+    padding-bottom: 20px;
+  }
+  
+  #iphone-img{
+    width: 95%;
+    height: 100%;
+    max-width: 1600px;
+    max-height: 340px;
+  }
+  
+  #iphone-buy{
+    width: 5%;
+    height: 35px;
+    border-radius: 40px;
+    background-color: #0071E3;
+    color: white;
+    font-family: BlinkMacSystemFont, sans-serif;
+    margin-top: 5px;
+    border-weight: 0px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  #blue-color{
+  }
+  
+  #submit{
+    width: 5%;
+    height: 35px;
+    border-radius: 40px;
+    background-color: #0071E3;
+    color: white;
+    font-family: BlinkMacSystemFont, sans-serif;
+    border-weight: 0px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  
+  @media (max-width:800px){
+    .nav-bar{
+      justify-content: stretch;
+    }
+  }

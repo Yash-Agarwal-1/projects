@@ -1,0 +1,45 @@
+<html>
+  <head>
+  <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+  </head>
+  <header>
+    <h1 id="title">LEAGUE OF LEGENDS<br> survey</h1><br>
+  </header>
+  <body>
+    <p id="description">Where everything is broken</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label><br>
+      <input type="text" id="name" placeholder="Enter your name" required><br><br>
+      <label for="email" id="email-label"> E-mail:</label><br>
+      <input type="email" id="email" placeholder="Enter your email"  required><br><br>
+      <label for="number" id="number-label">Favorite Season</label><br>
+      <input type="number" id="number" placeholder="Season" min="1" max="11" required><br><br>
+      <div class="fields">
+      <label for="dropdown">What role do you play</label><br>
+      <select id="dropdown" name="drpdwn">
+        <option selected disabled value="">Please select a role</option>
+        <option value="top">Top</option>
+        <option value="Jungle">Jungle</option>
+        <option value="Mid">Mid</option>
+        <option value="adc">ADC</option>
+        <option value="Support">Support</option>
+      </select>
+      </div>
+      <p>Who is the most broken hero?</p>
+      <input type="radio" name="champ" id="Irelia" value="Irelia">
+      <label for="Irelia">Irelia</label>
+       <input type="radio" name="champ" id="Fiora" value="Fiora">
+      <label for="Fiora">Fiora</label>
+       <input type="radio" name="champ" id="Kayn" value="Kayn">
+      <label for="Kayn">Kayn</label>
+      <p>Was the item rework a good change?</p>
+      <input type="checkbox" id="Yes" name="Yes" value="Yes">
+      <label for="Yes">Yes</label>
+      <input type="checkbox" id="No" name="No" value="No">
+      <label for="No">No</label><br>
+      <p>Please leave what change you wish could be made to the game.</p>
+      <textarea id="input-text" rows="10" cols="50"></textarea><br><br>
+      <input type="submit" id="submit">
+    </form>
+    <body>
+</html>
